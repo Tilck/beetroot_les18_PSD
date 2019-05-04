@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font: 400 15px/1.5 "Lato", Arial, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.ba-container {
+    width: 900px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.ba-container--hero {
+    width: 600px;
+}
+
+/*------------HEADER-------*/
+
+.ba-header {
+    background:#ADB8CC url("../img/backgrounds/hero-bg.jpg") 50% no-repeat;
+    background-size: cover;
+    padding-top: 285px;
+    color: #fff;
+    min-height: 100vh;
+}
+
+.ba-logo {
+    display: inline-block;
+    margin-bottom: 100px;
+}
+
+.ba-logo img {
+    display: block;
+    margin: 0 auto;
+}
+
+.ba-title {
+    font-size: 3rem;
+    letter-spacing: 0.16em;
+    font-family: "Lato-Bold";
+    margin-bottom: 50px;
+}
+
+.ba-desc {
+    line-height: 2em;
+    margin-bottom: 240px;
+}
+
+.ba-scroll {
+    display: inline-block;
+    margin-bottom: 115px;
+}
+
+.ba-scroll img  {
+    display: block;
+}
+
+/*---------MAIN---------*/
+
+.ba-main {
+    padding-top: 160px;
+}
+
+.ba-about {
+    color: #3c3c3c;
+}
+
+.ba-box {
+    border: 2px solid #3c3c3c;
+    border-top: none;
+    position: relative;
+}
+
+.ba-box:before, .ba-box:after {
+    content: '';
+    position: absolute;
+    width: 25%;
+    top: 0;
+    border: 2px solid #3c3c3c;
+}
+
+.ba-box:before {left: 0}
+
+.ba-box:after {right: 0}
+
+.ba-box__title {
+    font-size: 34px;
+    letter-spacing: 0.16em;
+    position: absolute;
+    top: -15%;
+    left: 0;
+    right: 0;
+}
+
+.ba-box :nth-of-type(2) {
+    padding-top: 50px;
+}

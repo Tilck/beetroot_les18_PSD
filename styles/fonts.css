@@ -1,0 +1,14 @@
+@font-face {
+    font-family: Lato-Bold; /* Имя шрифта */
+    src: url(../fonts/Lato-Bold.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: Lato-Light; /* Имя шрифта */
+    src: url(../fonts/Lato-Light.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: Lato; /* Имя шрифта */
+    src: url(../fonts/Lato-Regular.ttf); /* Путь к файлу со шрифтом */
+}
