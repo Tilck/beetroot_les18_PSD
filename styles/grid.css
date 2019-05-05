@@ -1,20 +1,14 @@
-.ba-grid > [class*="ba-width-"]{
+.ba-row > [class*="ba-width-"]{
     float: left;
     padding-left: 20px;
 }
 
-.ba-grid{
+.ba-row{
     margin-left: -20px;
     overflow: auto;
 }
 
-.cont {
-	padding: 15px 0;
-	background-color: #ccc;
-	text-align: center;
-}
-
-.ba-grid + .ba-grid {
+.ba-row + .ba-row {
     margin-top: 20px;
 }
 [class*="ba-width-"] {

@@ -6,7 +6,7 @@
 }
 
 body {
-    font: 400 15px/1.5 "Lato", Arial, sans-serif;
+    font: 400 15px/2 "Lato", Arial, sans-serif;
     text-transform: uppercase;
     text-align: center;
 }
@@ -64,18 +64,23 @@ body {
 
 /*---------MAIN---------*/
 
-.ba-main {
-    padding-top: 160px;
+.ba-section {
+    padding: 160px 0;
+    color: #3c3c3c;
 }
 
-.ba-about {
-    color: #3c3c3c;
+.ba-section--services {
+    background: #AAB8CE url("../img/backgrounds/services.jpg") 50% no-repeat;
+    background-size: cover;
+    padding: 130px 0 110px;
+    color: #fff;
 }
 
 .ba-box {
     border: 2px solid #3c3c3c;
     border-top: none;
     position: relative;
+    padding: 80px 170px 30px;
 }
 
 .ba-box:before, .ba-box:after {
@@ -83,7 +88,7 @@ body {
     position: absolute;
     width: 25%;
     top: 0;
-    border: 2px solid #3c3c3c;
+    border: 1px solid #3c3c3c;
 }
 
 .ba-box:before {left: 0}
@@ -94,11 +99,45 @@ body {
     font-size: 34px;
     letter-spacing: 0.16em;
     position: absolute;
-    top: -15%;
+    top: -35px;
     left: 0;
     right: 0;
 }
 
-.ba-box :nth-of-type(2) {
-    padding-top: 50px;
+.ba-section--about p:nth-of-type(2) { padding: 0 60px; }
+
+.ba-box p {
+    text-transform: none;
+    font-family: "Lato-Light";
+}
+
+.ba-section--whatWeDo .ba-box {padding-bottom: 90px}
+
+.ba-box__elem + .ba-box__elem {
+    padding-top: 100px;
+}
+
+.ba-elem__img{
+    width: 80px;
+    height: 83px;
+    display: block;
+    margin: 0 auto;
+}
+
+.ba-elem__img path {
+    fill: #3c3c3c;
+}
+
+.ba-elem__title {
+    display: inline-block;
+    font-family: "Lato-Bold";
+    font-size: 20px;
+}
+
+.ba-elem__img, .ba-elem__title {margin-bottom: 35px}
+
+.ba-block__item {
+    height: 240px;
+    background-size: cover;
+    overflow: hidden;
 }
