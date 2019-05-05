@@ -140,4 +140,16 @@ body {
     height: 240px;
     background-size: cover;
     overflow: hidden;
+    position: relative;
+}
+
+.ba-block__title {
+    font-family: "Lato-Bold";
+    font-size: 34px;
+    color: #fff;
+    letter-spacing: 0.16em;
+    position: absolute;
+    z-index: 1;
+    left: 70px;
+    bottom: 30px;
 }
